@@ -1,0 +1,28 @@
+/* Existing styles... */
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+nav a#projects:hover {
+    background-color: #3498db; /* Blue color on hover for Projects */
+}
+
+nav a#education:hover {
+    background-color: #2ecc71; /* Green color on hover for Education */
+}
+
+nav a#experience:hover {
+    background-color: #f39c12; /* Yellow color on hover for Experience */
+}
+
+nav a#contact:hover {
+    background-color: #e74c3c; /* Red color on hover for Contact */
+}
